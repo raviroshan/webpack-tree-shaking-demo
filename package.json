@@ -1,0 +1,23 @@
+{
+  "name": "webpack-tree-shaking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "webpack",
+    "build:watch": "webpack --watch",
+    "web": "live-server ./dist"
+  },
+  "author": "Ravi Roshan <raviroshan.talk@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "live-server": "^1.2.0",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "lodash-es": "^4.17.11"
+  }
+}
